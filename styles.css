@@ -76,7 +76,7 @@ body {
     width: 85% !important;
     margin: 0 auto;
     text-align: center;
-    background-color: hotpink;
+    /*background-color: hotpink;*/
   }
   .board {
     font-size: 30px;
