@@ -58,3 +58,30 @@ body {
 .board > [data-status="marked"] {
   background-color: yellow;
 }
+
+/* @media (max-width: 750px) {
+  body{
+    width: 80%;
+  }
+  .wrapper{
+    background-color: red;
+    width: 100% !important;
+  }
+} */
+@media (max-width: 750px) {
+  body{
+    /* width: 30%; */
+  }
+  .wrapper{
+    width: 85% !important;
+    margin: 0 auto;
+    text-align: center;
+    background-color: hotpink;
+  }
+  .board {
+    font-size: 30px;
+    grid-template-columns: repeat(var(--size), 40px);
+    grid-template-rows: repeat(var(--size), 40px);
+    background-color: rebeccapurple;
+  }
+}
